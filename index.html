@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Promoção da Farmácia</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="container">
+    <h2>Promoção da Farmácia </h2>
+    <label for="descricao">Descrição do medicamento:</label>
+    <input type="text" id="descricao" placeholder="Ex: Dipirona">
+
+    <label for="preco">Preço unitário (R$):</label>
+    <input type="number" id="preco" step="0.01" placeholder="Ex: 12.60">
+
+    <button onclick="calcularPromocao()">Calcular Promoção</button>
+    <h3 id="saida1"></h3>
+    <h3 id="saida2"></h3>
+
+    <div id="saida" class="resultado"></div>
+  </div>
+ 
+
+  <script src="script.js"></script>
+</body>
+</html>
